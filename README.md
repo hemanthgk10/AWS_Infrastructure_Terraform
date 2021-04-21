@@ -1,4 +1,6 @@
 # AWS_Infrastructure_Terraform
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform?ref=badge_shield)
+
 
 A sample Terraform document to bootstrap a VPC with Private, public subnets. Nat Server configured for natting data from private subnet through public Subnet using a load balancer.
 
@@ -12,3 +14,7 @@ Steps To Run:
 2. vi constants.tf and add your AWS Access key and AWS Secret Key.
 3. terraform plan.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform?ref=badge_large)
