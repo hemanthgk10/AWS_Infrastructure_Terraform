@@ -1,5 +1,7 @@
 # AWS_Infrastructure_Terraform
 
+test
+
 A sample Terraform document to bootstrap a VPC with Private, public subnets. Nat Server configured for natting data from private subnet through public Subnet using a load balancer.
 
 Just a basic sample on AWS infrastructure can be controlled using Code. We can use CloudFormation but it is hard to maintain with growing infrastructure. Terraform solves that problem using simple coding. Easy to learn.
