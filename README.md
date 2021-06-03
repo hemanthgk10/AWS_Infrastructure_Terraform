@@ -1,4 +1,6 @@
 # AWS_Infrastructure_Terraform
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform?ref=badge_shield)
+
 
 [![HIPAA](https://app.demo.soluble.cloud/api/v1/public/badges/fc1c31a6-ef1e-4db9-8d0c-0e503f6066e3.svg)](https://app.demo.soluble.cloud/repos/details/github.com/hemanthgk10/aws_infrastructure_terraform)  [![IaC](https://app.demo.soluble.cloud/api/v1/public/badges/8079f8fe-5387-4ec2-9d1f-ee91e1302c8f.svg)](https://app.demo.soluble.cloud/repos/details/github.com/hemanthgk10/aws_infrastructure_terraform)  [![CIS](https://app.demo.soluble.cloud/api/v1/public/badges/d5c40025-436f-4005-a038-f1d645ad3418.svg)](https://app.demo.soluble.cloud/repos/details/github.com/hemanthgk10/aws_infrastructure_terraform)  
 
@@ -14,3 +16,7 @@ Steps To Run:
 2. vi constants.tf and add your AWS Access key and AWS Secret Key.
 3. terraform plan.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhemanthgk10%2FAWS_Infrastructure_Terraform?ref=badge_large)
