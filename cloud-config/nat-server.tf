@@ -26,4 +26,6 @@ resource "aws_instance" "nat" {
       "sudo docker run --volumes-from ovpn-data --rm gosuri/openvpn ovpn_genconfig -p ${var.vpc_cidr} -u udp://${aws_instance.nat.public_ip}"
     ]
   }
+
+  ebs_optimized = true
 }
