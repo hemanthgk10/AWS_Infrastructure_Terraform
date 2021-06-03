@@ -4,7 +4,7 @@ variable "aws_access_key" {
 }
 
 variable "aws_secret_key" {
-   default = "Your AWS Secrety Key"
+   default = "AVPS7S34G"
    description = "AWS Secret key"
 }
 
