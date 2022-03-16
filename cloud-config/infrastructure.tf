@@ -33,7 +33,7 @@ resource "aws_subnet" "public" {
 resource "aws_subnet" "private" {
    vpc_id = "${aws_vpc.main.id}"
    cidr_block = "${var.vpc_private_subnet}"
-   map_public_ip_on_launch = false
+   map_public_ip_on_launch = true
    tags = {
        Name = "Private Subnet"
    }
