@@ -1,5 +1,5 @@
 variable "aws_access_key" {
-   default = "Your AWS ACCESS KEY"
+   default = "MGP092dgd3"
    description = "AWS Access key"
 }
 
