@@ -18,7 +18,7 @@ variable "azs_count" {
    default = {
       "0" = "us-west-2a"
       "1" = "us-west-2b"
-      "2" = "us-west-2e"
+      "2" = "us-west-2f"
    }
 }
 
