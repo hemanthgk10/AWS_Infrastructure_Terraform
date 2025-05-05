@@ -1,7 +1,7 @@
 /* NAT/VPN server */
 resource "aws_instance" "nat" {
   ami = "${lookup(var.aws_amis, "0")}"
-  instance_type = "t2.micro"
+  instance_type = "t1.micro"
   subnet_id = "${aws_subnet.public.id}"
   security_groups = ["${aws_security_group.allow_all.id}", "${aws_security_group.nat.id}"]
   key_name = "${aws_key_pair.deployer.key_name}"
