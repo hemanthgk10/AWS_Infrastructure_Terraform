@@ -15,4 +15,5 @@ Steps To Run:
 1. cd cloud-config
 2. vi constants.tf and add your AWS Access key and AWS Secret Key.
 3. terraform plan.
+4. 
 
