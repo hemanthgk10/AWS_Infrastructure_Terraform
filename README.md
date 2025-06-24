@@ -10,7 +10,6 @@ https://www.terraform.io/docs/providers/aws/index.html
 
 
 
-
 Steps To Run:
 [ Install terraform basing on the above documentation. ]
 
