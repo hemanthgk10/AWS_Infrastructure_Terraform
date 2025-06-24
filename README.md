@@ -10,6 +10,7 @@ https://www.terraform.io/docs/providers/aws/index.html
 Steps To Run:
 [ Install terraform basing on the above documentation. ]
 
+
 1. cd cloud-config
 2. vi constants.tf and add your AWS Access key and AWS Secret Key.
 3. terraform plan.
