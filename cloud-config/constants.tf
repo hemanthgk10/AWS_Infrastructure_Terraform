@@ -4,7 +4,7 @@ variable "aws_access_key" {
 }
 
 variable "aws_secret_key" {
-   default = "ALVPG8923asdf23"
+   default = "ALVPG8923asdf23989"
    description = "AWS Secret key"
 }
 
