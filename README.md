@@ -7,6 +7,8 @@ A sample Terraform document to bootstrap a VPC with Private, public subnets. Nat
 Just a basic sample on AWS infrastructure can be controlled using Code. We can use CloudFormation but it is hard to maintain with growing infrastructure. Terraform solves that problem using simple coding. Easy to learn.
 https://www.terraform.io/docs/providers/aws/index.html
 
+
+
 Steps To Run:
 [ Install terraform basing on the above documentation. ]
 
