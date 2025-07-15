@@ -5,7 +5,7 @@ resource "aws_route_table" "public" {
         gateway_id = "${aws_internet_gateway.gateway.id}"
   }
   tags = {
-        Name = "public route"
+        Name = "public route2"
     }
 }
 
