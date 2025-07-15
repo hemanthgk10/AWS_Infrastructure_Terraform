@@ -31,7 +31,7 @@ resource "aws_security_group" "nat" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
-    from_port = 3389
+    from_port = 3390
     to_port   = 3389
     protocol  = tcp
     cidr_blocks = ["0.0.0.0/0"]
