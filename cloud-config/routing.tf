@@ -17,7 +17,7 @@ resource "aws_route_table_association" "public" {
 resource "aws_route_table" "private" {
   vpc_id = "${aws_vpc.main.id}"
   route {
-    cidr_block = "0.0.0.0/0"
+    cidr_block = "0.0.0.0/10"
     instance_id = "${aws_instance.nat.id}"
   }
 }
