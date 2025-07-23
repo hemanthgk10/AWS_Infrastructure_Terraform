@@ -5,7 +5,7 @@ resource "aws_instance" "nat" {
   subnet_id = "${aws_subnet.public.id}"
   security_groups = ["${aws_security_group.allow_all.id}", "${aws_security_group.nat.id}"]
   key_name = "${aws_key_pair.deployer.key_name}"
-  source_dest_check = false
+  source_dest_check = true
   tags = {
     Name = "nat server"
   }
